@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+}
+
+section {
+    width: 700px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+}
+
+section > h2 {
+    padding-top: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+form > div.campoDeDados {
+    display: block;
+    margin: 20px 0 0% 30%;
+}
+
+form > div.bottons {
+    display: block;
+    margin-left: 30px;
+}
